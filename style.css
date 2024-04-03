@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    height: 120px;
+}
+
+.principal {
+    background-image: linear-gradient(#111111, #000000);
+    color: white;
+    display: flex;
+    height: 450px;
+}
