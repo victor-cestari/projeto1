@@ -8,14 +8,29 @@
     color: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     font-size: 36px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    height: 120px;
+    height: 140px;
+}
+
+.botoes {
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    font-size: 28px;  
+}
+
+.botaoinicio {
+    padding: 20px;
+}
+
+.botaoestudantes {
+    padding: 20px;
 }
 
 .principal {
-    background-image: linear-gradient(#383838, #111111);
+    background-image: linear-gradient(#383838, #222222);
     color: #ffffff;
     display: flex;
     height: 350px;
@@ -59,7 +74,7 @@
 }
 
 .estudantes {
-    background-color: #111111;
+    background-color: #222222;
     color: white;
     height: 450px;
 
@@ -85,16 +100,14 @@
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+    font-size: 22px;
 
 }
 
 .nome-j {
-    font-size: 32px;
     padding: 12px;
-
 }
 
 .nome-m {
-    font-size: 32px;
     padding: 12px;
 }
