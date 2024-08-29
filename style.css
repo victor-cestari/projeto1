@@ -1,7 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
+
 
 .cabecalho {
     background-color: #383838;
@@ -48,7 +45,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
-    margin: 44px;
+    margin: 14px;
 
 
 }
@@ -65,10 +62,8 @@
 }
 
 .texto-conteudo {
-    font-size: 30px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    font-size: 32px;
+    text-align: center;
 
 
 }
@@ -76,7 +71,8 @@
 .estudantes {
     background-color: #222222;
     color: white;
-    height: 450px;
+    height: auto;
+    padding-bottom: 50px;
 
 }
 
@@ -90,25 +86,62 @@
 
 }
 
-.imagens-estudantes {
+.imagens-estudantes1, .imagens-estudantes2 {
     display: flex;
     justify-content: space-evenly;
     
 }
 
-.nomes-estudantes {
+.nomes-estudantes1, .nomes-estudantes2 {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
-    font-size: 22px;
+    font-size: 27px;
 
 }
 
-.nome-j {
+.jhonatan {
+    max-width: 100%;
+    height: auto;
+}
+
+.nomes-estudantes1 {
+    margin-bottom: 40px;
+}
+
+.nome-j, .nome-y {
     padding: 12px;
-    margin-left: -20px;
+
 }
 
 .nome-m {
     padding: 12px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.nome-na {
+    padding: 12px;
+    margin-right: 30px;
+    margin-left: 40px;
+}
+
+
+.nome-no, .nome-g {
+    padding: 12px;
+
+}
+
+footer {
+    height: 30px;
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 50px;
+}
+
+@media screen and (max-width: 850px) {
+    .botoes, .imagem-principal {
+        display: none;
+    }
 }
